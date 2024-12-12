@@ -1,0 +1,5 @@
+print('Ho va ten:Phan Van Do')
+print('MSSV:205752020710012')
+a=open('D:/a.txt','r')
+b=a.read()
+print(b)
