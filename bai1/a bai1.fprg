@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="a bai1"/>
+        <attribute name="authors" value="Admin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-12-13 11:55:14 AM"/>
+        <attribute name="created" value="QWRtaW47REVTS1RPUC00QjhFMk9TOzIwMjQtMTItMTM7MTE6NDk6NTQgQU07Mjc5NQ=="/>
+        <attribute name="edited" value="QWRtaW47REVTS1RPUC00QjhFMk9TOzIwMjQtMTItMTM7MTE6NTU6MTQgQU07MTsyODk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Dientich" type="Real" array="False" size=""/>
+            <declare name="bankinh" type="Integer" array="False" size=""/>
+            <output expression="&quot;Nhap ban kinh hinh tron&quot;" newline="True"/>
+            <input variable="bankinh"/>
+            <assign variable="dientich" expression="3.14*bankinh^2"/>
+            <output expression="&quot;dientichla&quot;&amp;dientich" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
